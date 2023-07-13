@@ -650,7 +650,7 @@ header ul li a{
       z-index: 1001;
       cursor: pointer;
       background-position: center;
-      right: 270px;
+      /* right: 270px; */
       padding: 5px 15px;
       
     }
