@@ -617,7 +617,7 @@ header ul li a{
     }
     header .action .searchBx{
       margin-right: 300px;
-      width: 140px;
+      width: 180px;
     }
 
     header .action .searchBx input {
@@ -650,7 +650,7 @@ header ul li a{
       z-index: 1001;
       cursor: pointer;
       background-position: center;
-      /* right: 270px; */
+      right: 150px;
       padding: 5px 15px;
       
     }
@@ -672,11 +672,11 @@ header ul li a{
       padding: 5px;
       z-index: 1;
       border-radius: 10px;
-      width: 100%;
+      width: 250px;
       height: 100%;
       font-size: 1em;
       margin-top: 50px;
-      margin-right: 190px;
+      margin-left: -250px;
       background: rgb(27 33 65 / 50%);
     }
     .picture .page .content h2 {
@@ -732,8 +732,8 @@ header ul li a{
     min-height: 100%;
     flex-wrap: wrap;
 }
-.tournament h3 {
-  font-size: 1.2rem;
+ .tournament h3 {
+   font-size: 1.2rem;
   }
 
 .plays .cardBx .card{
@@ -744,6 +744,9 @@ header ul li a{
   .plays ul li {
     display: flex;
     
+  }
+  .plays h2{
+    margin-left: 50px;
   }
   footer .info p {
   font-size: 0.8em;
