@@ -581,7 +581,7 @@ header ul li a{
   }
 
   /* Responsiveness */
-  @media (max-width: 800px)
+  @media (max-width: 780px)
   {
     /* header
     {
@@ -664,7 +664,7 @@ header ul li a{
     }
     .picture .page img{
       position: absolute;
-      width: 350px;
+      width: 500px;
       margin-right: 300px;
     }
 
@@ -721,7 +721,7 @@ header ul li a{
     }
 
     .contact img {
-      width: 400px;
+      width: 100%;
   }
 
   .tournament .boxBx {
