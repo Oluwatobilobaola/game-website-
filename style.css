@@ -757,6 +757,19 @@ footer .info .sign {
   font-size: 1.5rem;
 }
 
+.animeX{
+  position: relative;
+  transition: all 3s ease;
+  opacity: 0;
+  transform: translateY(150px);
+}
+
+.animeX.active{
+  transform: translateY(0px);
+  opacity: 1;
+
+}
+
 .contact .form .inputBx input[type="submit"]{
   width: 100px;
   margin-left: 60px;

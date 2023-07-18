@@ -12,6 +12,25 @@ function toggleMenu(){
     navbar.classList.toggle('active')
 }
 
+window.addEventListener('scroll',function(){
+    var anime = document.querySelectorAll('.animeX');
+
+    for(var s = 0; s < anime.length; s++){
+        var windowheight = window.innerHeight;
+        var animetop = anime[s].getBoundingClientRect().top;
+        var animepoint = 150;
+
+        if(animetop < windowheight - animepoint){
+            anime[s].classList.add('active');
+        }
+        else{
+            anime[s].classList.remove('active');
+        }
+
+    }
+})
+
+
 let list = document.querySelectorAll ('.list');
 let card = document.querySelectorAll ('.card');
 
