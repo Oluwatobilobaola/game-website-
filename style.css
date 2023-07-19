@@ -6,14 +6,12 @@
     font-family:'Montserrat', sans-serif;
     text-decoration: none;
     scroll-behavior: smooth;
-    overflow-x: hidden;
     
+     
 }
 
 body{
-background: #05002D;
-
-
+   background: #05002D;
 }
 
 ::-webkit-scrollbar{
@@ -620,7 +618,7 @@ header ul li a{
       display: flex;
     }
     header .action .searchBx{
-      margin-right: 150px; 
+      margin-right: 350px; 
       width: 130px;
     }
 
@@ -682,7 +680,7 @@ header ul li a{
       height: 100%;
       font-size: 1em;
       margin-top: 50px;
-      /* margin-left: -300px; */
+      margin-left: -250px;
       background: rgb(27 33 65 / 50%);
     }
     .picture .page .content h2 {
