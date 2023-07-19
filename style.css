@@ -6,11 +6,13 @@
     font-family:'Montserrat', sans-serif;
     text-decoration: none;
     scroll-behavior: smooth;
+    overflow-x: hidden;
     
 }
 
 body{
 background: #05002D;
+
 
 }
 
@@ -587,6 +589,7 @@ header ul li a{
     {
       padding: 10px 30px;
     } */
+     
 
     header{
       padding: 1px 10px;
@@ -609,21 +612,22 @@ header ul li a{
       flex-direction: column;
       z-index: 1000;
       justify-content: center;
-      display: none;  
+      display: none ;  
+     
     }
 
     header .navbar.active{    
       display: flex;
     }
     header .action .searchBx{
-      margin-right: 300px;
-      width: 180px;
+      margin-right: 70px; 
+      width: 130px;
     }
 
-    header .action .searchBx input {
+    /* header .action .searchBx input {
       margin-left: 20px;
       font-size: 0.8em;
-    }
+    } */
 
     header .navbar li{
       margin: 20px 0;
@@ -635,12 +639,13 @@ header ul li a{
     }
 
     header .action .searchBx input{
-      width: 120px;
+      width: 40px;
       margin-right: 20px;
+      font-size: 0.7rem;
     }
 
     .toggleMenu{
-      position: relative;
+      position: fixed;
       height: 30px;
       width: 30px;
       background-size:30px;
@@ -650,8 +655,8 @@ header ul li a{
       z-index: 1001;
       cursor: pointer;
       background-position: center;
-      right: 150px;
-      padding: 5px 15px;
+      left: 260px;
+      /* padding: 5px 15px; */
       
     }
 
@@ -666,6 +671,7 @@ header ul li a{
       position: absolute;
       width: 400px;
       margin-right: 300px;
+      overflow: hidden;
     }
 
     .picture .page .content {
@@ -676,7 +682,7 @@ header ul li a{
       height: 100%;
       font-size: 1em;
       margin-top: 50px;
-      margin-left: -300px;
+      /* margin-left: -300px; */
       background: rgb(27 33 65 / 50%);
     }
     .picture .page .content h2 {
