@@ -620,7 +620,7 @@ header ul li a{
       display: flex;
     }
     header .action .searchBx{
-      margin-right: 70px; 
+      margin-right: 150px; 
       width: 130px;
     }
 
@@ -671,7 +671,7 @@ header ul li a{
       position: absolute;
       width: 400px;
       margin-right: 300px;
-      overflow: hidden;
+      
     }
 
     .picture .page .content {
