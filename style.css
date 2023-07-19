@@ -3,7 +3,8 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
-    font-family:'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
     scroll-behavior: smooth;
     
@@ -215,6 +216,7 @@ header ul li a{
       margin: 10px 0;
       text-decoration: underline;
       font-size: 2.5rem;
+      
      }
 
      .plays ul{
@@ -445,6 +447,8 @@ header ul li a{
       display: inline-block;
       margin-top: 10px;
       background: #fff;
+      margin-left: 130px;
+      border-radius: 5px;
     }
 
     .tournament .boxBx .box .write .play:hover {
