@@ -631,8 +631,8 @@ header ul li a{
       display: flex;
     }
     header .action .searchBx{
-      margin-right: 350px; 
-      width: 130px;
+      margin-right: 60px; 
+      width: 100px;
     }
 
     /* header .action .searchBx input {
@@ -661,12 +661,13 @@ header ul li a{
       width: 30px;
       background-size:30px;
       background-repeat: no-repeat;
-      background: url(./images/./menu.png);
-      background-color: #FFF !important;
+      background: url(./images/./menu2.png);
+      color: #fff !important;
       z-index: 1001;
       cursor: pointer;
       background-position: center;
-      left: 320px;
+      left: 300px;
+      stroke: #FFF;
       /* padding: 5px 15px; */
       
     }
@@ -693,7 +694,7 @@ header ul li a{
       height: 100%;
       font-size: 1em;
       margin-top: 50px;
-      margin-left: -300px;
+      margin-left: -400px;
       background: rgb(27 33 65 / 50%);
     }
     .picture .page .content h2 {
