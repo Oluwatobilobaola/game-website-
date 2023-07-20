@@ -631,7 +631,7 @@ header ul li a{
       display: flex;
     }
     header .action .searchBx{
-      margin-right: 60px; 
+      margin-right: 120px; 
       width: 100px;
     }
 
@@ -662,13 +662,12 @@ header ul li a{
       background-size:30px;
       background-repeat: no-repeat;
       background: url(./images/./menu2.png);
-      color: #fff !important;
+      background-color: #fff !important;
       z-index: 1001;
       cursor: pointer;
       background-position: center;
       left: 300px;
-      stroke: #FFF;
-      /* padding: 5px 15px; */
+     
       
     }
 
@@ -676,7 +675,7 @@ header ul li a{
       background-size:30px;
       background-repeat: no-repeat;
       background: url(./images/./close.png);
-      color: #FFF !important;
+      background-color: #FFF !important;
       background-position: center;
     }
     .picture .page img{
@@ -694,7 +693,7 @@ header ul li a{
       height: 100%;
       font-size: 1em;
       margin-top: 50px;
-      margin-left: -400px;
+      margin-left: -350px;
       background: rgb(27 33 65 / 50%);
     }
     .picture .page .content h2 {
