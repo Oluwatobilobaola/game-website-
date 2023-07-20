@@ -662,11 +662,12 @@ header ul li a{
       background-size:30px;
       background-repeat: no-repeat;
       background: url(./images/./menu2.png);
-      background-color: #fff !important;
+      background-color: #fff;
       z-index: 1001;
       cursor: pointer;
       background-position: center;
       left: 300px;
+      display: block;
      
       
     }
@@ -675,7 +676,7 @@ header ul li a{
       background-size:30px;
       background-repeat: no-repeat;
       background: url(./images/./close.png);
-      background-color: #FFF !important;
+      background-color: #FFF;
       background-position: center;
     }
     .picture .page img{
@@ -763,8 +764,9 @@ header ul li a{
     
   }
   .plays h2{
-    margin-left: 10px;
+    margin-left: 30px;
   }
+
   footer .info p {
   font-size: 0.8em;
   display: flex;
