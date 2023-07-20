@@ -631,7 +631,7 @@ header ul li a{
       display: flex;
     }
     header .action .searchBx{
-      margin-right: 120px; 
+      margin-right: 180px; 
       width: 100px;
     }
 
@@ -763,7 +763,7 @@ header ul li a{
     
   }
   .plays h2{
-    margin-left: 50px;
+    margin-left: 10px;
   }
   footer .info p {
   font-size: 0.8em;
