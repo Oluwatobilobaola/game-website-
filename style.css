@@ -666,7 +666,7 @@ header ul li a{
       z-index: 1001;
       cursor: pointer;
       background-position: center;
-      left: 300px;
+      left: 320px;
       /* padding: 5px 15px; */
       
     }
@@ -680,7 +680,7 @@ header ul li a{
     }
     .picture .page img{
       position: absolute;
-      width: 400px;
+      width: 100%;
       margin-right: 300px;
       
     }
@@ -693,7 +693,7 @@ header ul li a{
       height: 100%;
       font-size: 1em;
       margin-top: 50px;
-      margin-left: -250px;
+      margin-left: -300px;
       background: rgb(27 33 65 / 50%);
     }
     .picture .page .content h2 {
