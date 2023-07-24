@@ -628,14 +628,7 @@ header ul li a{
      
     }
 
-
-.navbar.active {
-  display: block; /* or any other styles to show the navbar */
-}
-  
-
-
-    header .navbar.active{    
+      header .navbar.active{    
       display: flex;
     }
     header .action .searchBx{
