@@ -12,6 +12,10 @@ function toggleMenu(){
     navbar.classList.toggle('active')
 }
 
+const toggleMenuButton = document.querySelector('.toggleMenu');
+toggleMenuButton.addEventListener('click', toggleMenu);
+
+
 window.addEventListener('scroll',function(){
     var anime = document.querySelectorAll('.animeX');
 

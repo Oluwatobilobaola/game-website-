@@ -624,10 +624,15 @@ header ul li a{
       z-index: 1000;
       justify-content: center;
       display: none ; 
-      height: 350px;
-      
+      height: 400px;   
      
     }
+
+
+.navbar.active {
+  display: block; /* or any other styles to show the navbar */
+}
+  
 
 
     header .navbar.active{    
