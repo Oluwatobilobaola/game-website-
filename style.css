@@ -624,8 +624,11 @@ header ul li a{
       z-index: 1000;
       justify-content: center;
       display: none ; 
+      height: 350px;
+      
      
     }
+
 
     header .navbar.active{    
       display: flex;
