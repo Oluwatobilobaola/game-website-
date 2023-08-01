@@ -13,6 +13,7 @@ function toggleMenu(){
 }
 
 
+
 window.addEventListener('scroll',function(){
     var anime = document.querySelectorAll('.animeX');
 
